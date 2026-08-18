@@ -1,0 +1,18 @@
+# Données de prix mises en cache — non redistribuées (ToS Yahoo)
+data_cache/
+*.pkl
+*.parquet
+
+# Sorties générées
+outputs/synthetic_*
+outputs/screen_*
+outputs/*.png
+
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+
+# macOS
+.DS_Store
